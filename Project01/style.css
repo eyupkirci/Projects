@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+      color:white;
+      background-image: url(./ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  #form-container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 1);
+    /* background: #E5E5E5; */
+  }
+
+  #form-title {
+    color: white;
+    font-family: "Bowlby One SC", cursive;
+    font-size: 3.125 rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+  }
+
+  #form-description{
+      text-align: center;
+      font-family: 'Sorts Mill Goudy', serif;
+      font-size: 1.4rem;
+  }
+
+  span {
+    color: red;
+  }
+
+ #survey-form-container{
+      max-width: 500px;
+      background: #000000;
+      opacity: 0.8;
+      margin:auto;
+      padding: 10px;
+  }
+
+  #survey-form{
+      max-width: 460px;
+      height: 800px;
+      margin:auto;
+      font-size: 1 rem;
+
+  }
+
+  #name, #age, #email, #dropdown, #feedback {
+      width:100%;
+      padding:10px;
+  }
+
+  .input-box{
+      margin-top:20px;
+      font-size: 1.2 rem;
+
+  }
+
+  #form-submit{
+      width:160px;
+      margin:auto;
+      margin-top: 15px;
+  }
+  button{
+      width:160px;
+      height: 45px;
+      background-color: red;
+      color: white;
+      font-size: 1 rem;
+      cursor: pointer;
+      margin:auto;
+      border:none;
+      border-radius: 50px;
+  } 
